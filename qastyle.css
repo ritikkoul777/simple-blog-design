@@ -1,0 +1,73 @@
+body
+{
+	background-image: url(ri.jpg);
+	background-size: cover;
+	
+	
+}
+h1
+{
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	color: #9E3655;
+	font-size: 35px;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink;
+	border-left: 2px solid pink;
+	box-shadow: 4px 4px 5px purple;
+}
+
+h3{
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	color: #7A494B;
+	font-size: 30px;
+	box-shadow: 4px 4px 5px purple;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink;
+	border-left: 2px solid pink;
+}
+img
+{
+	margin: 10px;
+	float: left;
+	width: 350px;
+	height: 200px;
+	transition: all 0.5s;
+}
+img:hover
+{
+	transform: scale(1.1);
+}
+p{
+	height: 350px;
+font-family: 'Dancing Script', cursive, center;
+text-align: center;
+line-height: 30px;
+font-weight: 100px;
+
+}
+span
+{
+	font-size: 20px;
+
+}
+
+li{
+		display: inline-block;
+      	    font-family: 'Dancing Script', cursive, center;
+	    font-size: 30px;
+	    font-weight: 30px;
+	    margin: 0px 10% 0% 10%;
+	    text-decoration: underline purple;
+	    color: red;
+}
+footer
+{
+	margin: 50px;
+	
+	color: purple;
+	clear: both;
+	text-align: center;
+	font-family: 'Dancing Script', cursive;	
+}
